@@ -7,6 +7,7 @@ export default function Note({id, text, date, handleDeleteNote}){
             <div className="note-footer">
                 <small>{date}</small>
                 <button
+                className="delete-icon"
                 onClick={() => handleDeleteNote(id)}
                 >Delete</button>
             </div>
