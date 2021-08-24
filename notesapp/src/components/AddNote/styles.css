@@ -34,6 +34,7 @@
 .note-textarea {
     border: none;
     resize: none;
+    font-size: 18px;
 
 }
 .note-textarea:focus{
