@@ -4,34 +4,31 @@ import NotesList from './components/NotesList';
 import {nanoid} from 'nanoid'
 
 export default function App() {
-	const [notes, setNotes] = useState([
-		{
-			id: nanoid(),
-			text: "Quinta Nota",
-			date: "15/04/2021"
-		},
-		{
-			id: nanoid(),
-			text: "Quarta Nota",
-			date: "15/04/2021"
-		},
-		{
-			id: nanoid(),
-			text: "Terceira Nota",
-			date: "15/04/2021"
-		},
-	
-	]);
+	const [notes, setNotes] = useState([]);
+
+	function addNotes (text) {
+		const date = new Date();
+		const newNote = {
+			id:nanoid(),
+			text: text,
+			date: date.toLocaleDateString()
+		}
+
+		const newNotes = [...notes, newNote];
+		setNotes(newNotes);
+	}
+
+	function deleteNote(id){
+		const newNotes = notes.filter((note) => note.id !== id)
+		setNotes(newNotes);
+	}
 
 
 
 	return(
 		<div className="container">
-			<Header>
-				
-			</Header>
 
-			<NotesList notes={notes} />
+			<NotesList notes={notes} handleAddNote={addNotes} handleDeleteNote={deleteNote}/>
 
 				
 			

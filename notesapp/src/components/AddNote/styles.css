@@ -1,0 +1,43 @@
+.addNote {
+    background-color: #6da8e8;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new {
+    background-color: #6da8e8;
+}
+
+.note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saveButton{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    transform: scale(1.03);
+}
+
+.note-textarea {
+    border: none;
+    resize: none;
+
+}
+.note-textarea:focus{
+    outline: none;
+    
+}
+
