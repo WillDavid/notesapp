@@ -8,6 +8,20 @@
   max-width: auto;
   margin-right: auto;
   margin-left: auto;
+  padding: 10px;
+  width: 100vw;
+  min-height: 100vh;
+
+
+}
+
+.dark-mode {
+  background-color: rgb(44, 39, 39);
+  height: 100%;
+}
+
+.dark-mode h2 {
+  color: white;
 }
 
 
