@@ -29,7 +29,8 @@ export default function App() {
 		const newNote = {
 			id:nanoid(),
 			text: text,
-			date: date.toLocaleDateString()
+			date: date.toLocaleDateString(),
+			hour: date.toLocaleTimeString('pt-BR')
 		}
 
 		const newNotes = [...notes, newNote];

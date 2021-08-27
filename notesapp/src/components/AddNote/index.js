@@ -4,7 +4,7 @@ import '../AddNote/styles.css'
 export default function AddNote( {handleAddNote} ){
     const [noteText, setNoteText] = useState('');
     const [countWords, setCountWords] = useState(0);
-    const characterLimit = 100;
+    const characterLimit = 140;
 
 
     function handleChange(event){
