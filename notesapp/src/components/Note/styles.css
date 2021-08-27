@@ -3,6 +3,7 @@
     border-radius: 10px;
     padding: 1rem;
     min-height: 170px;
+    max-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,6 +11,8 @@
     font-family: Arial, Helvetica, sans-serif;
     white-space: pre-wrap;
     word-wrap: break-word;
+    
+
 
 }
 

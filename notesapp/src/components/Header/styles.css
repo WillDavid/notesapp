@@ -1,16 +1,24 @@
 .headerStyle{
     height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+    margin: 0 20px 0 20px;
 }
+
+.headerStyle h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
 
 .buttonDarkMode {
     border: none;
     width: 100px;
     height: 30px;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 

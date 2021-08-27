@@ -40,7 +40,7 @@ export default function AddNote( {handleAddNote} ){
             </textarea>
             <div className="note-footer">
                 <small>{characterLimit - noteText.length} Caracteres Restantes</small>
-                <button className="saveButton" onClick={handleSaveClick}>Save</button>
+                <button className="saveButton" onClick={handleSaveClick}>Salvar</button>
             </div>
 
         </div>
