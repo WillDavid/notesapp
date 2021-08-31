@@ -5,12 +5,14 @@ import '../Header/styles.css';
 export default function Header( {handleToggleDarkMode }){
     return(
         <div className="headerStyle">
-            <h2>NOTAS</h2>
+            <h2>MeAnota</h2>
             <button 
             onClick={ () => handleToggleDarkMode( (previousDarkMode) => !previousDarkMode)}
             className="buttonDarkMode">
-                Dark Mode
+                <img src="https://img.icons8.com/ios/26/000000/lamp.png"/>
+                <spam>Modo Escuro</spam>
             </button>
+            
         </div>
     )
 }

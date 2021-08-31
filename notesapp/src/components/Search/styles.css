@@ -9,16 +9,17 @@
     margin-bottom: 1.5em;
     padding-left: 10px;
     margin: 0 20px 0 20px;
+    font-family: 'Inter', sans-serif;
    
 }
 
 .search input {
     padding-left: 10px;
+    font-family: 'Inter', sans-serif;
     padding-right: 10px;
     width: 100%;
     border: none;
-    background-color: rgb(233, 233, 233
-        );
+    background-color: rgb(233, 233, 233);
 }
 
 .search input:focus{
