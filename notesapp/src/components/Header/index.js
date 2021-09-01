@@ -1,15 +1,15 @@
 import React from 'react';
 import '../Header/styles.css';
-
+import Lampada from '../../icons/lampada.svg'
 
 export default function Header( {handleToggleDarkMode }){
     return(
         <div className="headerStyle">
-            <h2>MeAnota</h2>
+            <h2>MiAnota</h2>
             <button 
             onClick={ () => handleToggleDarkMode( (previousDarkMode) => !previousDarkMode)}
             className="buttonDarkMode">
-                <img src="https://img.icons8.com/ios/26/000000/lamp.png"/>
+                <img src={Lampada}></img>
                 <spam>Modo Escuro</spam>
             </button>
             

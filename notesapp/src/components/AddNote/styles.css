@@ -1,5 +1,5 @@
 .addNote {
-    background-color: #6da8e8;
+    background-color: #fff69b;
     border-radius: 10px;
     padding: 1rem;
     min-height: 170px;
@@ -14,7 +14,7 @@
 
 
 .new {
-    background-color: #6da8e8;
+    background-color: #fff69b;
 }
 
 .note-footer {
