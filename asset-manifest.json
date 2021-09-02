@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/notesapp/static/css/main.84311701.chunk.css",
+    "main.js": "/notesapp/static/js/main.418b6392.chunk.js",
+    "main.js.map": "/notesapp/static/js/main.418b6392.chunk.js.map",
+    "runtime-main.js": "/notesapp/static/js/runtime-main.c361c647.js",
+    "runtime-main.js.map": "/notesapp/static/js/runtime-main.c361c647.js.map",
+    "static/js/2.4504d1b1.chunk.js": "/notesapp/static/js/2.4504d1b1.chunk.js",
+    "static/js/2.4504d1b1.chunk.js.map": "/notesapp/static/js/2.4504d1b1.chunk.js.map",
+    "index.html": "/notesapp/index.html",
+    "static/css/main.84311701.chunk.css.map": "/notesapp/static/css/main.84311701.chunk.css.map",
+    "static/js/2.4504d1b1.chunk.js.LICENSE.txt": "/notesapp/static/js/2.4504d1b1.chunk.js.LICENSE.txt",
+    "static/media/lampada.4ca41fbb.svg": "/notesapp/static/media/lampada.4ca41fbb.svg",
+    "static/media/searchIcon.1273aebc.svg": "/notesapp/static/media/searchIcon.1273aebc.svg",
+    "static/media/trash.4cfa926f.svg": "/notesapp/static/media/trash.4cfa926f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c361c647.js",
+    "static/js/2.4504d1b1.chunk.js",
+    "static/css/main.84311701.chunk.css",
+    "static/js/main.418b6392.chunk.js"
+  ]
+}
