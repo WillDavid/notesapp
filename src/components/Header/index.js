@@ -6,6 +6,7 @@ export default function Header( {handleToggleDarkMode }){
     return(
         <div className="headerStyle">
             <h2>Me Anota</h2>
+            
             <button 
             onClick={ () => handleToggleDarkMode( (previousDarkMode) => !previousDarkMode)}
             className="buttonDarkMode">

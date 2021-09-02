@@ -69,6 +69,8 @@ export default function App() {
 
 	  }
 
+	 
+
 
 	
 
@@ -81,10 +83,14 @@ export default function App() {
 				<Search handleSearchNote={setSearchText} />
 
 				<NotesList notes={notes.filter( (note) => note.text.toLowerCase().includes(searchText))} handleAddNote={addNotes} handleDeleteNote={deleteNote}/>
+				
+
+
 
 					
 				
 			</div>
+			
 		</div>
 
 	)
