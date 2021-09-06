@@ -82,7 +82,11 @@ export default function App() {
 				<Header handleToggleDarkMode={setDarkMode} />
 				<Search handleSearchNote={setSearchText} />
 
-				<NotesList notes={notes.filter( (note) => note.text.toUpperCase().includes(searchText))} handleAddNote={addNotes} handleDeleteNote={deleteNote}/>
+				<NotesList notes={notes.filter( (note) => {
+					return(
+						note.text.toString().includes(searchText) || note.text.toUpperCase().includes(searchText) || note.text.toLowerCase().includes(searchText)
+					)
+				})} handleAddNote={addNotes} handleDeleteNote={deleteNote}/>
 				
 
 
